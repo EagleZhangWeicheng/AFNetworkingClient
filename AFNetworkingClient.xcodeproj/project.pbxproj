@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64B62D62C96A163FB191A7FF /* libPods-AFNetworkingClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D2009993E0935579DB15B /* libPods-AFNetworkingClient.a */; };
 		6681B74F1D2A190200B20676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6681B74E1D2A190200B20676 /* AppDelegate.swift */; };
 		6681B7511D2A190200B20676 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6681B7501D2A190200B20676 /* ViewController.swift */; };
 		6681B7541D2A190200B20676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6681B7521D2A190200B20676 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		6681B7641D2A190200B20676 /* AFNetworkingClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6681B7631D2A190200B20676 /* AFNetworkingClientTests.swift */; };
 		6681B7721D2A1A0100B20676 /* EagleAFNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6681B7701D2A1A0100B20676 /* EagleAFNetworking.swift */; };
 		6681B7731D2A1A0100B20676 /* EagleNetClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6681B7711D2A1A0100B20676 /* EagleNetClient.swift */; };
+		66A161361D2A724C00879B54 /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A161351D2A724C00879B54 /* config.swift */; };
+		7E1421F81E159BD07C815F74 /* libPods-AFNetworkingClientTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F524CD0D3FA9163B47DFF772 /* libPods-AFNetworkingClientTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14E1321FB43D92B5D8E9A519 /* Pods-AFNetworkingClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkingClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworkingClientTests/Pods-AFNetworkingClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1910D17ABC9F00E3D7CA91BA /* Pods-AFNetworkingClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkingClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworkingClientTests/Pods-AFNetworkingClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		1DAD1934CB0EC1DCB95AD1EE /* Pods-AFNetworkingClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkingClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworkingClient/Pods-AFNetworkingClient.debug.xcconfig"; sourceTree = "<group>"; };
+		2692093DC4B93B29514AD9D3 /* Pods-AFNetworkingClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFNetworkingClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFNetworkingClient/Pods-AFNetworkingClient.release.xcconfig"; sourceTree = "<group>"; };
+		664425AE1D2A6F7D00E5A25E /* AFNetworkingClient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFNetworkingClient-Bridging-Header.h"; sourceTree = "<group>"; };
 		6681B74B1D2A190200B20676 /* AFNetworkingClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNetworkingClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6681B74E1D2A190200B20676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6681B7501D2A190200B20676 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,9 +46,11 @@
 		6681B75F1D2A190200B20676 /* AFNetworkingClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNetworkingClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6681B7631D2A190200B20676 /* AFNetworkingClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFNetworkingClientTests.swift; sourceTree = "<group>"; };
 		6681B7651D2A190200B20676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6681B76F1D2A1A0100B20676 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
 		6681B7701D2A1A0100B20676 /* EagleAFNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EagleAFNetworking.swift; sourceTree = "<group>"; };
 		6681B7711D2A1A0100B20676 /* EagleNetClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EagleNetClient.swift; sourceTree = "<group>"; };
+		66A161351D2A724C00879B54 /* config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+		692D2009993E0935579DB15B /* libPods-AFNetworkingClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworkingClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F524CD0D3FA9163B47DFF772 /* libPods-AFNetworkingClientTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworkingClientTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B62D62C96A163FB191A7FF /* libPods-AFNetworkingClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1421F81E159BD07C815F74 /* libPods-AFNetworkingClientTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +79,8 @@
 				6681B74D1D2A190200B20676 /* AFNetworkingClient */,
 				6681B7621D2A190200B20676 /* AFNetworkingClientTests */,
 				6681B74C1D2A190200B20676 /* Products */,
+				E83B30CFBB07244C3895FB22 /* Pods */,
+				D5EB07C22D704319725654F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +96,7 @@
 		6681B74D1D2A190200B20676 /* AFNetworkingClient */ = {
 			isa = PBXGroup;
 			children = (
+				66A161341D2A723B00879B54 /* Config */,
 				6681B76E1D2A1A0100B20676 /* Classes */,
 				6681B74E1D2A190200B20676 /* AppDelegate.swift */,
 				6681B7501D2A190200B20676 /* ViewController.swift */,
@@ -89,6 +104,7 @@
 				6681B7551D2A190200B20676 /* Assets.xcassets */,
 				6681B7571D2A190200B20676 /* LaunchScreen.storyboard */,
 				6681B75A1D2A190200B20676 /* Info.plist */,
+				664425AE1D2A6F7D00E5A25E /* AFNetworkingClient-Bridging-Header.h */,
 			);
 			path = AFNetworkingClient;
 			sourceTree = "<group>";
@@ -105,12 +121,39 @@
 		6681B76E1D2A1A0100B20676 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6681B76F1D2A1A0100B20676 /* AFNetworking.h */,
 				6681B7701D2A1A0100B20676 /* EagleAFNetworking.swift */,
 				6681B7711D2A1A0100B20676 /* EagleNetClient.swift */,
 			);
 			name = Classes;
 			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		66A161341D2A723B00879B54 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				66A161351D2A724C00879B54 /* config.swift */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		D5EB07C22D704319725654F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				692D2009993E0935579DB15B /* libPods-AFNetworkingClient.a */,
+				F524CD0D3FA9163B47DFF772 /* libPods-AFNetworkingClientTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E83B30CFBB07244C3895FB22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DAD1934CB0EC1DCB95AD1EE /* Pods-AFNetworkingClient.debug.xcconfig */,
+				2692093DC4B93B29514AD9D3 /* Pods-AFNetworkingClient.release.xcconfig */,
+				14E1321FB43D92B5D8E9A519 /* Pods-AFNetworkingClientTests.debug.xcconfig */,
+				1910D17ABC9F00E3D7CA91BA /* Pods-AFNetworkingClientTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6681B7681D2A190200B20676 /* Build configuration list for PBXNativeTarget "AFNetworkingClient" */;
 			buildPhases = (
+				890198A074061D9B591FA5C3 /* [CP] Check Pods Manifest.lock */,
 				6681B7471D2A190200B20676 /* Sources */,
 				6681B7481D2A190200B20676 /* Frameworks */,
 				6681B7491D2A190200B20676 /* Resources */,
+				E1D891FA5337BE3C1D5C4208 /* [CP] Embed Pods Frameworks */,
+				4C819BBF6F265C498C632539 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6681B76B1D2A190200B20676 /* Build configuration list for PBXNativeTarget "AFNetworkingClientTests" */;
 			buildPhases = (
+				1EFCA1ACBAF6E16B5B1496EB /* [CP] Check Pods Manifest.lock */,
 				6681B75B1D2A190200B20676 /* Sources */,
 				6681B75C1D2A190200B20676 /* Frameworks */,
 				6681B75D1D2A190200B20676 /* Resources */,
+				EF309D5B10CB81FB47BE5609 /* [CP] Embed Pods Frameworks */,
+				C85D1EF82488F8955F26C884 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,6 +258,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EFCA1ACBAF6E16B5B1496EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C819BBF6F265C498C632539 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFNetworkingClient/Pods-AFNetworkingClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		890198A074061D9B591FA5C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C85D1EF82488F8955F26C884 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFNetworkingClientTests/Pods-AFNetworkingClientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1D891FA5337BE3C1D5C4208 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFNetworkingClient/Pods-AFNetworkingClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF309D5B10CB81FB47BE5609 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFNetworkingClientTests/Pods-AFNetworkingClientTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6681B7471D2A190200B20676 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -217,6 +359,7 @@
 				6681B7511D2A190200B20676 /* ViewController.swift in Sources */,
 				6681B74F1D2A190200B20676 /* AppDelegate.swift in Sources */,
 				6681B7721D2A1A0100B20676 /* EagleAFNetworking.swift in Sources */,
+				66A161361D2A724C00879B54 /* config.swift in Sources */,
 				6681B7731D2A1A0100B20676 /* EagleNetClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,28 +489,36 @@
 		};
 		6681B7691D2A190200B20676 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DAD1934CB0EC1DCB95AD1EE /* Pods-AFNetworkingClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AFNetworkingClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ealge.AFNetworkingClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AFNetworkingClient/AFNetworkingClient-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		6681B76A1D2A190200B20676 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2692093DC4B93B29514AD9D3 /* Pods-AFNetworkingClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AFNetworkingClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ealge.AFNetworkingClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AFNetworkingClient/AFNetworkingClient-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		6681B76C1D2A190200B20676 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14E1321FB43D92B5D8E9A519 /* Pods-AFNetworkingClientTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AFNetworkingClientTests/Info.plist;
@@ -380,6 +531,7 @@
 		};
 		6681B76D1D2A190200B20676 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1910D17ABC9F00E3D7CA91BA /* Pods-AFNetworkingClientTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AFNetworkingClientTests/Info.plist;

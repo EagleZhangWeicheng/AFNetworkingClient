@@ -11,9 +11,9 @@
 
 import UIKit
 protocol EagleAFNetworkingDelegate:NSObjectProtocol {
-    func willRequst(swiftAFNetworking:SwiftAFNetworking)
-    func requestDidfinished(swiftAFNetworking:SwiftAFNetworking,withdata:AnyObject)
-    func requiredDidFailed(swiftAFNetworking:SwiftAFNetworking,error:NSError)
+    func willRequst(swiftAFNetworking:EagleAFNetworking)
+    func requestDidfinished(swiftAFNetworking:EagleAFNetworking,withdata:AnyObject)
+    func requiredDidFailed(swiftAFNetworking:EagleAFNetworking,error:NSError)
 }
 
 class EagleAFNetworking: NSObject{
@@ -106,8 +106,8 @@ class EagleAFNetworking: NSObject{
         
         self.delegate?.willRequst(self)
         
-        let selfDelegate :SwiftAFNetworkingDelegate? = self.delegate
-        let weakSelf = self as SwiftAFNetworking
+        let selfDelegate :EagleAFNetworkingDelegate? = self.delegate
+        let weakSelf = self 
         EagleNetClient.sharedInstance.POST(tempUrlString, parameters: self.param, progress: nil, success: { (dataTask:NSURLSessionDataTask, withdata:AnyObject?) -> Void in
             selfDelegate?.requestDidfinished(weakSelf, withdata: withdata!)
             self.success?(jsonData:withdata)
@@ -147,7 +147,7 @@ class EagleAFNetworking: NSObject{
         else{
             deviceValue = "IOS"
         }
-        EagleNetClient.sharedInstance.requestSerializer.setValue(deviceValue, forHTTPHeaderField: HeadDevice)
+        EagleNetClient.sharedInstance.requestSerializer.setValue(deviceValue, forHTTPHeaderField: "HeadDevice")
     
     }
 
