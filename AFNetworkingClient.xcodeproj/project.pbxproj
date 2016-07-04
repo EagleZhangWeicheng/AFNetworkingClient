@@ -13,6 +13,8 @@
 		6681B7561D2A190200B20676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6681B7551D2A190200B20676 /* Assets.xcassets */; };
 		6681B7591D2A190200B20676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6681B7571D2A190200B20676 /* LaunchScreen.storyboard */; };
 		6681B7641D2A190200B20676 /* AFNetworkingClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6681B7631D2A190200B20676 /* AFNetworkingClientTests.swift */; };
+		6681B7721D2A1A0100B20676 /* EagleAFNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6681B7701D2A1A0100B20676 /* EagleAFNetworking.swift */; };
+		6681B7731D2A1A0100B20676 /* EagleNetClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6681B7711D2A1A0100B20676 /* EagleNetClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,9 @@
 		6681B75F1D2A190200B20676 /* AFNetworkingClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNetworkingClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6681B7631D2A190200B20676 /* AFNetworkingClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFNetworkingClientTests.swift; sourceTree = "<group>"; };
 		6681B7651D2A190200B20676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6681B76F1D2A1A0100B20676 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		6681B7701D2A1A0100B20676 /* EagleAFNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EagleAFNetworking.swift; sourceTree = "<group>"; };
+		6681B7711D2A1A0100B20676 /* EagleNetClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EagleNetClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,7 @@
 		6681B74D1D2A190200B20676 /* AFNetworkingClient */ = {
 			isa = PBXGroup;
 			children = (
+				6681B76E1D2A1A0100B20676 /* Classes */,
 				6681B74E1D2A190200B20676 /* AppDelegate.swift */,
 				6681B7501D2A190200B20676 /* ViewController.swift */,
 				6681B7521D2A190200B20676 /* Main.storyboard */,
@@ -94,6 +100,17 @@
 				6681B7651D2A190200B20676 /* Info.plist */,
 			);
 			path = AFNetworkingClientTests;
+			sourceTree = "<group>";
+		};
+		6681B76E1D2A1A0100B20676 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6681B76F1D2A1A0100B20676 /* AFNetworking.h */,
+				6681B7701D2A1A0100B20676 /* EagleAFNetworking.swift */,
+				6681B7711D2A1A0100B20676 /* EagleNetClient.swift */,
+			);
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +216,8 @@
 			files = (
 				6681B7511D2A190200B20676 /* ViewController.swift in Sources */,
 				6681B74F1D2A190200B20676 /* AppDelegate.swift in Sources */,
+				6681B7721D2A1A0100B20676 /* EagleAFNetworking.swift in Sources */,
+				6681B7731D2A1A0100B20676 /* EagleNetClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +409,7 @@
 				6681B76A1D2A190200B20676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6681B76B1D2A190200B20676 /* Build configuration list for PBXNativeTarget "AFNetworkingClientTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +418,7 @@
 				6681B76D1D2A190200B20676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
