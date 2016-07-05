@@ -10,8 +10,6 @@
 
 
 import UIKit
-import AFNetworking
-
 protocol EagleAFNetworkingDelegate:NSObjectProtocol {
     func willRequst(swiftAFNetworking:EagleAFNetworking)
     func requestDidfinished(swiftAFNetworking:EagleAFNetworking,withdata:AnyObject)
@@ -134,7 +132,7 @@ class EagleAFNetworking: NSObject{
     
     //MARK:设置版本号
     func setVersion(){
-            EagleNetClient.sharedInstance.requestSerializer.setValue(EagleNetClientConfig.appVersion, forHTTPHeaderField: "AppVersion")
+            EagleNetClient.sharedInstance.requestSerializer.setValue(URLAndAppVersion.appVersion, forHTTPHeaderField: "AppVersion")
     }
     
     //MARK:设备判断设备
