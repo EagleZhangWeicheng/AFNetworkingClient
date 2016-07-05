@@ -7,7 +7,10 @@
 //
 
 //需要设置BASE_URL
-
+class EagleNetClientConfig :NSObject{
+    static var base_url:String!
+    static var appVersion:String!
+}
 
 import UIKit
 
@@ -18,7 +21,7 @@ class EagleNetClient: AFHTTPSessionManager {
             static var instance : EagleNetClient? = nil
         }
         dispatch_once(&Static.onceToken) {
-            let temp = EagleNetClient(baseURL: NSURL(string: BASE_URL))
+            let temp = EagleNetClient(baseURL: NSURL(string: EagleNetClientConfig.base_url))
             temp.responseSerializer.acceptableContentTypes = Set(arrayLiteral:"application/json", "text/json", "text/javascript","text/html")
             Static.instance = temp
         }

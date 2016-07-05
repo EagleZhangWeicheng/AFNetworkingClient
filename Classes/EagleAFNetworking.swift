@@ -132,7 +132,7 @@ class EagleAFNetworking: NSObject{
     
     //MARK:设置版本号
     func setVersion(){
-            EagleNetClient.sharedInstance.requestSerializer.setValue(APPVesion, forHTTPHeaderField: "AppVersion")
+            EagleNetClient.sharedInstance.requestSerializer.setValue(EagleNetClientConfig.appVersion, forHTTPHeaderField: "AppVersion")
     }
     
     //MARK:设备判断设备
