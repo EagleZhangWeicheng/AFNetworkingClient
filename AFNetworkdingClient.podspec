@@ -8,4 +8,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'git://https://github.com/EagleZhangWeicheng/AFNetworkingClient.git', :tag => 'v0.01' }
   spec.source_files = 'Classes/*'
   spec.requires_arc = true
+  spec.framework        = 'AFNetworking'
+
 end
