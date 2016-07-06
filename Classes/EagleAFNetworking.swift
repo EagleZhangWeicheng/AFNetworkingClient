@@ -10,7 +10,6 @@
 
 
 import UIKit
-import AFNetworking
 
 protocol EagleAFNetworkingDelegate:NSObjectProtocol {
     func willRequst(swiftAFNetworking:EagleAFNetworking)
