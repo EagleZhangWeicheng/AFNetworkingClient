@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.source_files = 'Classes/*'
   spec.requires_arc = true
 
-  spec.dependency   =  'AFNetworking'
+  spec.dependency     'AFNetworking'
 
 
 end
