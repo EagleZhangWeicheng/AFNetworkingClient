@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		64B62D62C96A163FB191A7FF /* libPods-AFNetworkingClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D2009993E0935579DB15B /* libPods-AFNetworkingClient.a */; };
 		6649A26F1D2C99C300D62196 /* EagleAFNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6649A26C1D2C99C300D62196 /* EagleAFNetworking.swift */; };
 		6649A2701D2C99C300D62196 /* EagleNetClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6649A26E1D2C99C300D62196 /* EagleNetClient.swift */; };
 		6681B74F1D2A190200B20676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6681B74E1D2A190200B20676 /* AppDelegate.swift */; };
@@ -17,7 +16,8 @@
 		6681B7591D2A190200B20676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6681B7571D2A190200B20676 /* LaunchScreen.storyboard */; };
 		6681B7641D2A190200B20676 /* AFNetworkingClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6681B7631D2A190200B20676 /* AFNetworkingClientTests.swift */; };
 		66A161361D2A724C00879B54 /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A161351D2A724C00879B54 /* config.swift */; };
-		7E1421F81E159BD07C815F74 /* libPods-AFNetworkingClientTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F524CD0D3FA9163B47DFF772 /* libPods-AFNetworkingClientTests.a */; };
+		AB98AFFE6BE2ABEDA0FCBC14 /* Pods_AFNetworkingClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBADD9A2A53624EB8251D88 /* Pods_AFNetworkingClient.framework */; };
+		D66990F6A47764DE5DA11827 /* Pods_AFNetworkingClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AAE1DFD8D17FFEA14C4127 /* Pods_AFNetworkingClientTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +50,8 @@
 		6681B7631D2A190200B20676 /* AFNetworkingClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFNetworkingClientTests.swift; sourceTree = "<group>"; };
 		6681B7651D2A190200B20676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66A161351D2A724C00879B54 /* config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
-		692D2009993E0935579DB15B /* libPods-AFNetworkingClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworkingClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F524CD0D3FA9163B47DFF772 /* libPods-AFNetworkingClientTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworkingClientTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77AAE1DFD8D17FFEA14C4127 /* Pods_AFNetworkingClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFNetworkingClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BBADD9A2A53624EB8251D88 /* Pods_AFNetworkingClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFNetworkingClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64B62D62C96A163FB191A7FF /* libPods-AFNetworkingClient.a in Frameworks */,
+				AB98AFFE6BE2ABEDA0FCBC14 /* Pods_AFNetworkingClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E1421F81E159BD07C815F74 /* libPods-AFNetworkingClientTests.a in Frameworks */,
+				D66990F6A47764DE5DA11827 /* Pods_AFNetworkingClientTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +141,8 @@
 		D5EB07C22D704319725654F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				692D2009993E0935579DB15B /* libPods-AFNetworkingClient.a */,
-				F524CD0D3FA9163B47DFF772 /* libPods-AFNetworkingClientTests.a */,
+				8BBADD9A2A53624EB8251D88 /* Pods_AFNetworkingClient.framework */,
+				77AAE1DFD8D17FFEA14C4127 /* Pods_AFNetworkingClientTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

@@ -6,6 +6,8 @@
 //  Copyright (c) 2014年 eagle. All rights reserved.
 //
 
+import AFNetworking
+
 //需要设置BASE_URL
 class EagleNetClientConfig :NSObject{
     static var base_url:String!
